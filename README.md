@@ -63,3 +63,11 @@ O comando recebe o objeto JsonPatchDocument<PessoaDto> + IdPessoa
       return this._mapper.Map<TDomain>(objDto);
   }
 ```
+  
+## Json Exemplo Patch
+```json
+  [
+    { "op": "replace", "path": "/nome", "value": "Diogo Schimmelpfennig" },
+    { "op": "replace", "path": "/dataNascimento", "value": "31/01/1999" },
+  ]
+```

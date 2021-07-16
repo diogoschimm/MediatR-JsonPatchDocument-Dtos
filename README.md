@@ -68,6 +68,7 @@ O comando recebe o objeto JsonPatchDocument<PessoaDto> + IdPessoa
 ```json
   [
     { "op": "replace", "path": "/nome", "value": "Diogo Schimmelpfennig" },
-    { "op": "replace", "path": "/dataNascimento", "value": "31/01/1999" },
+    { "op": "replace", "path": "/dataNascimento", "value": "2020-10-01" },
   ]
+
 ```
